@@ -18,9 +18,10 @@ print
 print "Writing config file..."
 print
 f = open("config.py", "w")
+f.write("#Don't show this file to anyone or you can lose your twitter account.\n")
 f.write("consumer_key = '%s'" % consumer_key + "\n")
 f.write("consumer_secret = '%s'" % consumer_secret + "\n")
 f.write("access_key = '%s'" % access_key + "\n")
 f.write("access_secret = '%s'" % access_secret + "\n")
 f.close()
-print "Done."
+print "Done.Don't show config.py file to anyone or you can lose your twitter account."
