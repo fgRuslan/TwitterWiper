@@ -11,4 +11,4 @@ To setup this application:
 
 There is no undo! Use this application smartly.
 
-This application requires [python](python.org) to run
+This application requires [python](python.org) to run and also [Python Twitter API](https://pypi.python.org/pypi/twitter)
