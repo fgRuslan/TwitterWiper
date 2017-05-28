@@ -1,6 +1,6 @@
 # TwitterWiper
 
-This scripts allow you to remove **ALL** your tweets or **ALL** your friends.
+These scripts allow you to remove **ALL** your tweets or **ALL** your friends.
 
 To setup these scripts:
 * Clone it from Github
