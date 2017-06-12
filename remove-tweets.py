@@ -8,5 +8,4 @@ user = raw_input("Type the user name here:")
 twitter = Twitter(auth = OAuth(config["access_key"], config["access_secret"], config["consumer_key"], config["consumer_secret"]))
 results = twitter.statuses.user_timeline(screen_name = user)
 for status in results:
-	print "%s (ID : %s)" % (status["text"],status["id"])
 	remove_results = twitter.statuses.destroy(id = status["id"])
