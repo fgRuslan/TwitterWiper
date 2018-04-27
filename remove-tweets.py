@@ -1,12 +1,16 @@
 from twitter import *
 
 config = {}
-execfile("config.py", config)
-
-user = raw_input("Type your user name here:")
+try:
+        execfile("config.py", config)
+except IOError:
+        print
+        print "Error: No configuration file found. Creating a new one..."
+        execfile("auth.py")
+        exit(1)
 
 twitter = Twitter(auth = OAuth(config["access_key"], config["access_secret"], config["consumer_key"], config["consumer_secret"]))
-results = twitter.statuses.user_timeline(screen_name = user)
+results = twitter.statuses.user_timeline()
 
 print "Removing your tweets, this may take a while..."
 
