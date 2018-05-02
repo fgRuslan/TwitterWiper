@@ -9,7 +9,6 @@ To setup these scripts:
 
 #### Warning!
 
-There is no undo! Use these scripts smartly.
-remove-friends.py removes only first 100 friends. To remove more than 100 friends, run it several times.
+There is no undo! Use these scripts smartly. Or just backup your tweets somewhere in case you change your mind.
 
 These scripts require [python](python.org) to run and also [Python Twitter API](https://pypi.python.org/pypi/twitter)
