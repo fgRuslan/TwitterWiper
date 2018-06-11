@@ -12,3 +12,4 @@ To setup these scripts:
 There is no undo! Use these scripts smartly. Or just backup your tweets somewhere in case you change your mind.
 
 These scripts require [python](python.org) to run and also [Python Twitter API](https://pypi.python.org/pypi/twitter)
+There is also python3 version available in **python3** branch.
